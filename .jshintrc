@@ -1,0 +1,17 @@
+{
+  "maxerr"        : 50,       // {int} Maximum error before stopping
+  "indent"        : 4,        // {int} Number of spaces to use for indentation
+  "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
+  "camelcase"     : true,     // true: Identifiers must be in camelCase
+  "curly"         : true,     // true: Require {} for every new block or scope
+  "eqeqeq"        : true,     // true: Require triple equals (===) for comparison
+  "forin"         : true,     // true: Require filtering for..in loops with obj.hasOwnProperty()
+  "freeze"        : true,     // true: prohibits overwriting prototypes of native objects such as Array, Date etc.
+  "noarg"         : true,     // true: Prohibit use of `arguments.caller` and `arguments.callee`
+  "noempty"       : true,     // true: Prohibit use of empty blocks
+  "nonbsp"        : true,     // true: Prohibit "non-breaking whitespace" characters.
+  "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+  "unused"        : true,     // Unused variables:
+  "strict"        : true,     // true: Requires all functions run in ES5 Strict Mode
+  "node"          : true      // Node.js
+}
