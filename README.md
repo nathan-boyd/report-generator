@@ -9,6 +9,8 @@ report-generator encapsulates the task of creating simple html reports.
 ##quick example
 ```javascript
 
+    var reportGenerator = require('report-generator');
+
     var generator new reportGenerator('report.html', ['col1', 'col2'], function (err) {
         assert(err === null);
     });
